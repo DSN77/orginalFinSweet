@@ -1,0 +1,33 @@
+.faq {
+  flex-flow: row nowrap;
+  align-items: start;
+  gap: 109px;
+  .faqHeading {
+    width: 30%;
+    align-items: start;
+    gap: 20px;
+    margin-top: 10%;
+    .faqTopic {
+      font-size: 38px;
+      line-height: 56px;
+    }
+    .faqContact {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+  .question {
+    .accordion {
+      width: 90%;
+      height: 90%;
+    }
+  }
+}
+.accordingTopic {
+  font-size: 24px;
+  line-height: 36px;
+}
+.accordion-body {
+  font-size: 18px;
+  line-height: 32px;
+}

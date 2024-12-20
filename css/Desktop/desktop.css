@@ -1,0 +1,45 @@
+@import "./Home/header.css";
+@import "./Home/hero.css";
+@import "./Home/howWork.css";
+@import "./Home/ourProject.css";
+@import "./Home/feature.css";
+@import "./Home/testimonial.css";
+@import "./Home/faq.css";
+@import "./Home/contactForm.css";
+@import "./Home/ourBlog.css";
+@import "./Home/footer.css";
+
+          /* end home css */
+@import "./AboutUs/aboutUsHero.css";
+@import "./AboutUs/whoWeAre.css";
+@import "./AboutUs/procces.css";
+@import "./AboutUs/mission.css";
+@import "./AboutUs/benefits.css";
+@import "./AboutUs/ourTeam.css";
+
+           /* end about us */
+@import "./Pricing/pricingHeading.css";
+@import "./Pricing/pricingCard.css";
+
+           /* end pricing */
+@import "./Features/bestInClass.css";
+@import "./Features/freeReVision.css";
+@import "./Features/support.css";
+@import "./Features/deliver.css";
+
+           /* end features */
+@import "./work/workHero.css";
+@import "./work/ourWork.css";
+@import "./work/ctaSection.css";
+
+          /* end work */
+@import "./case/caseHeading.css";
+@import "./case/mainImage.css";
+@import "./case/info.css";
+@import "./case/article.css";
+@import "./case/keyWord.css";
+
+          /* end case */
+@import "./contactUs/contactUsHeading.css";
+@import "./contactUs/form.css";
+

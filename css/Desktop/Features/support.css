@@ -1,0 +1,22 @@
+.support {
+  margin-top: 9%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 81px;
+  .supportDetail {
+    .supportName {
+      font-size: 18px;
+    }
+    .supportTopic {
+      font-size: 38px;
+    }
+    .supportDescription {
+      font-size: 16px;
+    }
+  }
+  .supportPic {
+    padding: unset;
+    img {
+      width: 80%;
+    }
+  }
+}

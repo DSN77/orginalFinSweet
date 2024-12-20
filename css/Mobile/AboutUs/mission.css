@@ -1,0 +1,94 @@
+.mission {
+  width: 100%;
+  /* height: 1922px; */
+  background-color: #eef4fa;
+  margin-top: 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+  .ourMission {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    .missionContent {
+      padding: 5%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: start;
+      gap: 20px;
+      .missionName {
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 500;
+
+        color: var(--mainDetailColor);
+      }
+      .missionTopic {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--mainDetailColor);
+      }
+      .missionDetail {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--mainDetailColor);
+        opacity: 70%;
+      }
+    }
+    .missionPic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 95%;
+      }
+    }
+  }
+  .ourVision {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    .visionContent {
+      padding: 5%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: start;
+      gap: 20px;
+      .visionName {
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 500;
+        color: var(--mainDetailColor);
+      }
+      .visionTopic {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--mainDetailColor);
+      }
+      .visionDetail {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--mainDetailColor);
+        opacity: 70%;
+      }
+    }
+    .visionPic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 95%;
+      }
+    }
+  }
+}

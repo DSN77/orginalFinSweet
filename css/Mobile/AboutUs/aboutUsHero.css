@@ -1,0 +1,48 @@
+.aboutUsHero {
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  .aboutUsContent {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    padding: 3%;
+    .nameHero {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 32px;
+      color: var(--mainDetailColor);
+    }
+    .topicHero {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--mainDetailColor);
+    }
+    .detailHero {
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--mainDetailColor);
+      opacity: 70%;
+    }
+  }
+  .aboutUsPic {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 90%;
+    }
+  }
+}

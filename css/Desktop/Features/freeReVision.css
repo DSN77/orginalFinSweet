@@ -1,0 +1,22 @@
+.freeReVision {
+  margin-top: 9%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 81px;
+  .freeReVisionDetail {
+    .freeReVisionName {
+      font-size: 18px;
+    }
+    .freeReVisionTopic {
+      font-size: 38px;
+    }
+    .freeReVisionDescription {
+      font-size: 16px;
+    }
+  }
+  .freeReVisionPic {
+    padding: unset;
+    img {
+      width: 80%;
+    }
+  }
+}

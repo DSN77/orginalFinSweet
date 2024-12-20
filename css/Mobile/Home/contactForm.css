@@ -1,0 +1,135 @@
+.contactForm {
+  width: 100%;
+  background-color: var(--mainBgWeb);
+  margin-top: 9%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  .convert {
+    width: 100%;
+    height: 100%;
+    padding-left: 1%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 95%;
+      height: 95%;
+      filter: brightness(0.3);
+    }
+    .convertDetail {
+      width: 90%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      padding: 15%;
+      gap: 24px;
+    }
+    .convertHeading {
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+    .convertDescription {
+      font-family: Poppins;
+      font-size: 10px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+  }
+  .formContact {
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainBgWeb);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    .formHeading {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: start;
+      padding: 5%;
+      gap: 10px;
+      .formTopic {
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 400;
+        color: #ffffff;
+      }
+      .formDetail {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--mainWorkBgColor);
+      }
+    }
+    .formAction {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: center;
+      form {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: start;
+        align-content: center;
+        gap: 30px;
+        padding: 0px 10%;
+        input[type="text"],
+        input[type="email"],
+        input[type="url"] {
+          width: 100%;
+          padding: 3.5%;
+          border: 1.5px solid #ffffff0d;
+          border-radius: 8px;
+          background-color: var(--mainBgWeb);
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="url"]:focus {
+          outline: unset;
+          border: 1.5px solid #ffffff0d;
+          border-radius: 8px;
+        }
+        input[type="submit"] {
+          width: 90%;
+          padding: 5%;
+          border: unset;
+          margin-top: 5px;
+          border-radius: 41px;
+          background-color: #fcd980;
+          margin-bottom: 10%;
+          transition: 400ms;
+          &:hover{
+            transform: scale(85%);
+          }
+        }
+      }
+    }
+    a.form {
+      margin-bottom: 10%;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 32px;
+      color: #ffffff;
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

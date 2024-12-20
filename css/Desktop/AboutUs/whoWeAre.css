@@ -1,0 +1,22 @@
+.whoWeAre {
+  margin-top: 9%;
+  .whoWeAreDetail {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 61px;
+    .whoWeAreChild {
+      .whoWeAreTopic {
+        font-size: 38px;
+        line-height: 56px;
+      }
+      .whoWeAreDescription {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+  }
+  .whoWeArePic {
+    img {
+      width: 100%;
+    }
+  }
+}

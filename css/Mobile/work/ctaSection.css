@@ -1,0 +1,46 @@
+.ctaSection {
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  .ctaHeading {
+    width: 70%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .topicCta {
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--mainDetailColor);
+      text-align: center;
+    }
+    .detailCta {
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--mainDetailColor);
+      opacity: 70%;
+      text-align: center;
+    }
+  }
+  a.ctaContact {
+    padding: 1% 6%;
+    background-color: var(--mainLinkColor);
+    border-radius: 41px;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--mainDetailColor);
+    transition: 400ms;
+    &:hover{
+      transform: scale(85%);
+    }
+  }
+}

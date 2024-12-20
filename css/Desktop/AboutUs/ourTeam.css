@@ -1,0 +1,9 @@
+.ourTeam {
+  margin-top: 9%;
+  .ourTeamHeading {
+    font-size: 48px;
+  }
+  .ourTeamMembers {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

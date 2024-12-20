@@ -1,0 +1,48 @@
+.contactForm {
+  flex-flow: row nowrap;
+  justify-content: start;
+  .convert {
+    width: 50%;
+    display: unset;
+    padding: unset;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .convertHeading {
+      font-size: 54px;
+      line-height: 74px;
+    }
+    .convertDescription {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+  .formContact {
+    width: 50%;
+    .formHeading {
+      padding: 10%;
+      gap: 16px;
+      .formTopic {
+        font-size: 32px;
+        line-height: 48px;
+      }
+      .formDetail {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    .formAction {
+      form {
+        input[type="submit"] {
+          margin-bottom: 5%;
+        }
+      }
+    }
+    a.form {
+      margin-bottom: 5%;
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+}

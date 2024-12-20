@@ -1,0 +1,13 @@
+.procces {
+  margin-top: 9%;
+  .proccesHeading {
+    font-size: 48px;
+  }
+  .proccesSteps {
+    grid-template-columns: repeat(4, 1fr);
+    .prccesStep {
+      justify-content: start;
+      gap: 48px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.mission {
+  margin-top: 9%;
+  gap: 26px;
+  .ourMission {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 140px;
+    padding: 3%;
+    .missionContent {
+      .missionName {
+        font-size: 16px;
+        line-height: 28px;
+      }
+      .missionTopic {
+        font-size: 38px;
+        line-height: 56px;
+      }
+      .missionDetail {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    .missionPic {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .ourVision {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 140px;
+    padding: 3%;
+    .visionContent {
+      .visionName {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .visionTopic {
+        font-size: 38px;
+        line-height: 56px;
+      }
+      .visionDetail {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    .visionPic {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.article {
+  margin-top: 5%;
+  .articleChild {
+    .topicArticle {
+      font-size: 38px;
+    }
+    .detailArticle {
+      font-size: 16px;
+    }
+    ul.projectList {
+      display: unset;
+      gap: unset;
+      list-style: disc;
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+}

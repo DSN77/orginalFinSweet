@@ -1,0 +1,141 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-next {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 86%;
+  background-color: #5239fa;
+}
+.swiper-button-next::after {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ffffff;
+  margin-left: 2px;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 60%;
+  background-color: rgb(204, 197, 197);
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 1;
+}
+
+.swiper-button-prev {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 86%;
+  left: 78%;
+  background-color: #5239fa;
+}
+.swiper-button-prev::after {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ffffff;
+  margin-right: 2px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial {
+  width: 100%;
+  background-color: var(--mainWorkBgColor);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  padding: 10% 0px;
+  margin-top: 20%;
+  .testimonialHeading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    .testimonialTopic {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--mainDetailColor);
+      text-align: center;
+    }
+    .testimonialDescription {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--mainDetailColor);
+      opacity: 70%;
+      text-align: center;
+    }
+  }
+  .testimonialContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: center;
+    .testimonialSlider {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: start;
+      .descriptionStory {
+        width: 100%;
+        height: 55%;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .profileStory {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        .profileDetail {
+          .namePerson {
+            font-family: Poppins;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 400;
+          }
+          .dutyPerson {
+            font-family: Poppins;
+            font-size: 10px;
+            font-weight: 400;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

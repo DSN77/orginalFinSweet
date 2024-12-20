@@ -1,0 +1,93 @@
+.hero {
+  width: 100%;
+  background-color: var(--mainBgWeb);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 60px;
+  .buildingStellar {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    .groupHeroText {
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: start;
+      gap: 14px;
+      .titleHero {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 34px;
+        color: #ffffff;
+      }
+      .descriptionHero {
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #ffffff;
+        opacity: 70%;
+      }
+    }
+    .btnHero {
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: center;
+      gap: 40px;
+      a.viewHero {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: Manrope;
+        font-size: 10px;
+        font-weight: 600;
+        color: #1b1c2b;
+        .viewHero {
+          padding: 16px 23px;
+          box-sizing: border-box;
+          border-radius: 41px;
+          background-color: #fcd980;
+          transition: 400ms;
+          &:hover{
+            transform: scale(85%);
+          }
+        }
+      }
+      a.pricingHero {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: capitalize;
+        div.pricingHero {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: start;
+          align-items: center;
+          gap: 16px;
+        }
+      }
+    }
+  }
+  .illustration {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+    }
+  }
+}

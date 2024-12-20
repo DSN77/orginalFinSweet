@@ -1,0 +1,34 @@
+.benefits {
+  margin-top: 9%;
+  .benefitsHeading {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .benefitsCategory {
+    grid-template-columns: repeat(3, 1fr);
+    .benefitsCategoryChild {
+      .CategoryChildTopic {
+        font-size: 24px;
+      }
+      .CategoryChildDetail {
+        font-size: 16px;
+      }
+    }
+  }
+  .benefitsLogo {
+    flex-flow: row nowrap;
+    gap: unset;
+    .logoNumber {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      padding-left: 5%;
+    }
+    .logoWrapper {
+      width: 65%;
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+}

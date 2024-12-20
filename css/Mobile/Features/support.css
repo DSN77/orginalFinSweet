@@ -1,0 +1,46 @@
+.support {
+    width: 100%;
+    margin-top: 15%;
+    background-color: var(--mainWorkBgColor);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 41px;
+    padding: 1%;
+    .supportDetail {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: start;
+      gap: 16px;
+      .supportName {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 32px;
+        color: #000000;
+      }
+      .supportTopic {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--mainDetailColor);
+      }
+      .supportDescription {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--mainDetailColor);
+        opacity: 70%;
+      }
+    }
+    .supportPic {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      padding-top: 5%;
+      img {
+        width: 95%;
+      }
+    }
+  }
+  

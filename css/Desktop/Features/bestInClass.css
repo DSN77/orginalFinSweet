@@ -1,0 +1,21 @@
+.bestInClass {
+  margin-top: 9%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 81px;
+  .bestInClassDetail {
+    .bestInClassName {
+      font-size: 18px;
+    }
+    .bestInClassTopic {
+      font-size: 38px;
+    }
+    .bestInClassDescription {
+      font-size: 16px;
+    }
+  }
+  .bestInClassPic {
+    img{
+        width: 80%;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.contactUsHeading {
+  .contactUsTopic {
+    font-size: 48px;
+  }
+  .contactUsDetail {
+    width: 40%;
+    font-size: 16px;
+  }
+}

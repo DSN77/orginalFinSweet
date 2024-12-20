@@ -1,0 +1,20 @@
+.contactUsForm {
+  form.contactUs {
+    .formNeeds {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 30px;
+      .formChild {
+        gap: 3px;
+      }
+    }
+    .formMassage {
+      margin-top: unset;
+    }
+    .formSend {
+      input[type="submit"] {
+        width: 20%;
+      }
+    }
+  }
+}

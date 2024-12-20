@@ -1,0 +1,73 @@
+.faq {
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 10%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  padding: 0% 2%;
+  gap: 20px;
+  .faqHeading {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5%;
+    .faqTopic {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 56px;
+      color: var(--mainDetailColor);
+    }
+    .faqContact {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 32px;
+      color: #2405f2;
+      opacity: 87%;
+    }
+  }
+  .question {
+    width: 70%;
+    height: 95%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    .accordion {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      .accordion-item {
+        width: 100%;
+      }
+    }
+  }
+}
+.accordingTopic {
+  display: flex;
+  gap: 30px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--mainDetailColor);
+  padding: 1% 0px;
+}
+.accordion-body {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--mainDetailColor);
+  opacity: 87%;
+  text-align: center;
+}

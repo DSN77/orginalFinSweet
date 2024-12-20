@@ -1,0 +1,42 @@
+.ourBlog {
+  .ourBlogTitle {
+    width: 97%;
+    font-size: 48px;
+    line-height: 64px;
+    margin: 0px 2%;
+    margin-left: unset;
+  }
+  .ourBlogCategory {
+    grid-template-columns: repeat(3, 1fr);
+    .ourBlogChild {
+      justify-content: start;
+      .ourBlogPic {
+        display: unset;
+        margin-bottom: 2%;
+        img {
+          width: 95%;
+        }
+      }
+      .ourBlogTopic {
+        font-size: 24px;
+        line-height: 36px;
+        margin: unset;
+      }
+      .ourBlogDetail {
+        font-size: 16px;
+        line-height: 28px;
+        margin: unset;
+      }
+      .moreOurBlog {
+        font-size: 16px;
+        line-height: 28px;
+        margin: unset;
+      }
+      .ourBlogDate {
+        font-size: 16px;
+        line-height: 28px;
+        margin: unset;
+      }
+    }
+  }
+}

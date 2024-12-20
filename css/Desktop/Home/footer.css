@@ -1,0 +1,66 @@
+footer {
+  .fooetrDetail {
+    height: 80%;
+    .finsweetFooetr {
+      .finSweetFooterCatogory {
+        padding: 15% 0% 10% 15%;
+        position: relative;
+        .footerDescription {
+          font-size: 16px;
+          line-height: 28px;
+        }
+        .footerContact {
+          width: 90%;
+          height: 27%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          margin-left: 5%;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1%;
+          .footerContactChild {
+            .ContactChildTopic {
+              font-size: 18px;
+              line-height: 32px;
+            }
+            .ContactChildDestenition {
+              font-size: 16px;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+    .letsTalkFooetr {
+      padding: 15% 0% 10% 15%;
+      .letsTalkDetail {
+        font-size: 16px;
+        line-height: 28px;
+      }
+      .letsTalkSocial {
+        gap: 40%;
+      }
+    }
+  }
+  .fooetrLink {
+    height: 20%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 2%;
+    .footerPage {
+      width: 50%;
+      height: 100%;
+      gap: 32px;
+      a {
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    .footerCopyRight {
+      width: 50%;
+      height: 100%;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+}

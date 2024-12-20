@@ -1,0 +1,39 @@
+.caseHeading {
+  width: 100%;
+  margin-top: 15%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  padding-left: 11%;
+  .caseHeadingContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    .caseName {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--mainDetailColor);
+      opacity: 80%;
+    }
+    .caseTopic {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--mainDetailColor);
+    }
+    .caseDetail {
+        width: 70%;
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--mainDetailColor);
+      opacity: 70%;
+    }
+  }
+}

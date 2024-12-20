@@ -1,0 +1,146 @@
+.pricingCard {
+  width: 100%;
+  margin-top: 9%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
+  padding: 1% 5%;
+  .pricingCardChild {
+    background-color: var(--mainWorkBgColor);
+    border: 3px solid var(--mainWorkBgColor);
+    border-radius: 12px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 34px;
+    padding: 15% 12% 10% 12%;
+    transition: 400ms;
+    &:hover {
+      background-color: #1c1e53;
+    }
+    &:hover > .costCard,
+    &:hover > .costCard > .title,
+    &:hover > .detailCard > .topicDetailCard,
+    &:hover > .detailCard > .descriptionDetailCard,
+    &:hover > .stepsCard > .firstStep,
+    &:hover > .stepsCard > .secondStep,
+    &:hover > .stepsCard > .thirdStep,
+    &:hover > .stepsCard > .fourthStep,
+    &:hover > .stepsCard > .fifthStep {
+      color: white;
+    }
+    &:hover > .pricingBtn,
+    &:hover > .pricingLink {
+      background-color: var(--mainLinkColor);
+      color: var(--mainDetailColor);
+    }
+    .costCard {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      font-family: Poppins;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 56px;
+      color: var(--mainDetailColor);
+      transition: 400ms;
+      .title {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #2405f2;
+        transition: 400ms;
+      }
+    }
+    .detailCard {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 8px;
+      padding-bottom: 20%;
+      .topicDetailCard {
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 36px;
+        color: var(--mainDetailColor);
+        transition: 500ms;
+      }
+      .descriptionDetailCard {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: var(--mainDetailColor);
+        opacity: 70%;
+        transition: 500ms;
+      }
+    }
+    .stepsCard {
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 20px;
+      .firstStep,
+      .secondStep,
+      .thirdStep,
+      .fourthStep,
+      .fifthStep {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 12px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+        color: var(--mainDetailColor);
+        transition: 500ms;
+      }
+    }
+    a.pricingBtn {
+      width: 80%;
+      background-color: var(--mainDetailColor);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5% 5%;
+      margin-left: 10%;
+      margin-top: 25%;
+      border-radius: 41px;
+      font-family: Manrope;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 32px;
+      color: var(--mainTextColor);
+      transition: 400ms;
+      transition: 400ms;
+      &:hover{
+        transform: scale(85%);
+      }
+    }
+    a.pricingLink {
+      width: 80%;
+      background-color: var(--mainDetailColor);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5% 5%;
+      margin-left: 10%;
+      margin-top: 15%;
+      border-radius: 41px;
+      font-family: Manrope;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 32px;
+      color: var(--mainTextColor);
+      transition: 400ms;
+      transition: 400ms;
+      &:hover{
+        transform: scale(85%);
+      }
+    }
+  }
+}

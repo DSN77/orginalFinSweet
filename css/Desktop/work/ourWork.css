@@ -1,0 +1,34 @@
+.ourWork {
+  .ourWorkHeading {
+    gap: 32px;
+    a {
+      font-size: 18px;
+    }
+  }
+  .ourWorkCategory {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    .ourWorkCategoryChild {
+      .ourWorkPic {
+        img {
+          width: 100%;
+        }
+      }
+      .ourWorkContent {
+        .ourWorkTopic {
+          font-size: 38px;
+          line-height: 56px;
+        }
+        .ourWorkDetail {
+          font-size: 16px;
+          line-height: 28px;
+        }
+      }
+      a.moreWork {
+        gap: 10px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}

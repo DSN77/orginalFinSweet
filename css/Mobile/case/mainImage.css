@@ -1,0 +1,13 @@
+.mainCaseImg {
+  width: 80%;
+  background: linear-gradient(131.34deg, #f4ede1 16.74%, #98b1c6 103.17%);
+  margin-left: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 0px;
+  margin-top: 9%;
+  img{
+    width: 70%;
+  }
+}

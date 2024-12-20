@@ -1,0 +1,42 @@
+.workHero {
+  width: 100%;
+  background-color: var(--mainWorkBgColor);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 6% 0px;
+  .workHeroTitle {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--mainDetailColor);
+    opacity: 70%;
+  }
+  .workHeroTopic {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 64px;
+    color: var(--mainDetailColor);
+    text-align: center;
+  }
+  .workHeroDetail {
+    /* width: 53%; */
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--mainDetailColor);
+    opacity: 70%;
+    text-align: center;
+  }
+  .workHeroLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+  }
+}

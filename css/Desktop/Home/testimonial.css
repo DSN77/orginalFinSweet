@@ -1,0 +1,61 @@
+.swiper-button-next {
+  width: 35px;
+  height: 35px;
+}
+.swiper-button-next::after {
+  font-size: 18px;
+}
+.swiper-button-prev {
+  width: 35px;
+  height: 35px;
+  left: 85%;
+}
+.swiper-button-prev::after {
+  font-size: 18px;
+}
+
+.testimonial {
+  flex-flow: row nowrap;
+  margin: unset;
+  .testimonialHeading {
+    width: 30%;
+    height: 90%;
+    flex-flow: column nowrap;
+    margin: unset;
+    .testimonialTopic {
+      font-size: 38px;
+      line-height: 56px;
+      text-align: unset;
+    }
+    .testimonialDescription {
+      font-size: 16px;
+      line-height: 28px;
+      text-align: unset;
+    }
+  }
+  .testimonialContent {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    .testimonialSlider {
+      width: 100%;
+      align-items: start;
+      .descriptionStory {
+        height: 55%;
+        font-size: 32px;
+      }
+      .profileStory {
+        .profileDetail {
+          .namePerson {
+            font-size: 18px;
+          }
+          .dutyPerson {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

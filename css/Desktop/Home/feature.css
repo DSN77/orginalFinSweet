@@ -1,0 +1,25 @@
+.features {
+  .featureHead {
+    width: 38%;
+    .featureTopic {
+      font-size: 16px;
+    }
+    .descriptionTopic {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  }
+  .featureCategory {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: unset;
+    .categoryChild {
+      .childTopic {
+        font-size: 24px;
+      }
+      .ChildDescription {
+        font-size: 16px;
+      }
+    }
+  }
+}

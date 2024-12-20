@@ -1,0 +1,86 @@
+.ourWork {
+  .ourTopic {
+    .viewProject {
+      font-size: 48px;
+    }
+    .viewMoreOurWork {
+      font-size: 16px;
+    }
+  }
+  .ourProject {
+    flex-flow: row nowrap;
+    .mainContent {
+      width: 70%;
+      .orginalContent {
+        .hoverContent {
+          height: 99.3%;
+          justify-content: end;
+          .DetailHover {
+            height: 55%;
+            justify-content: start;
+            gap: 26px;
+            padding-top: 15%;
+            .topicHover {
+              font-size: 24px;
+              line-height: 36px;
+            }
+            .descriptionHover {
+              font-size: 16px;
+              line-height: 28px;
+            }
+            a.linkHover {
+              font-size: 16px;
+              margin-top: 30%;
+              gap: 20px;
+            }
+          }
+        }
+      }
+    }
+    .anotherContent {
+      width: 30%;
+      .basicCard {
+        height: 50%;
+        .anotherContentHover {
+          .anotherDetailHover {
+            height: 60%;
+            justify-content: start;
+            gap: 20px;
+            .anotherTopic {
+              font-size: 24px;
+            }
+            a.anotherLink {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .SecondBasicCard {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        img {
+          width: 90%;
+        }
+        .secondContentHover {
+          width: 90%;
+          .anotherDetailHover {
+            width: 75%;
+            height: 60%;
+            justify-content: start;
+            gap: 20px;
+            .anotherTopic {
+              font-size: 24px;
+            }
+            a.anotherLink {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

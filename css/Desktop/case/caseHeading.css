@@ -1,0 +1,20 @@
+.caseHeading {
+  margin-top: 9%;
+  .caseHeadingContent {
+    width: 60%;
+    gap: 16px;
+    .caseName {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .caseTopic {
+      font-size: 48px;
+      line-height: 64px;
+    }
+    .caseDetail {
+      width: unset;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+}

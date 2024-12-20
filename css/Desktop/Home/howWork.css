@@ -1,0 +1,52 @@
+.howWork {
+  flex-flow: row nowrap;
+  align-items: start;
+  gap: 142px;
+  .weWork {
+    width: 25%;
+    .titleWork {
+      font-size: 48px;
+    }
+    .descriptionWork {
+      font-size: 14px;
+    }
+    .inTouch {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+  .workCategory {
+    width: 45%;
+    justify-content: start;
+    align-items: start;
+    gap: unset;
+    .firstFloor {
+      .topic {
+        font-size: 32px;
+      }
+    }
+    .secondFloor {
+      .topic {
+        font-size: 32px;
+      }
+    }
+    .thirdFloor {
+      .topic {
+        font-size: 32px;
+      }
+    }
+    .fourthFloor {
+      .topic {
+        font-size: 32px;
+      }
+    }
+    .introduced {
+      font-family: Poppins;
+      font-size: 16px !important;
+      font-weight: 400;
+      color: #282938;
+      opacity: 70%;
+    }
+  }
+}

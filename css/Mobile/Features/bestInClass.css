@@ -1,0 +1,43 @@
+.bestInClass {
+  width: 100%;
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 41px;
+  padding: 1%;
+  .bestInClassDetail {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+    .bestInClassName {
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 32px;
+      color: #000000;
+    }
+    .bestInClassTopic {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--mainDetailColor);
+    }
+    .bestInClassDescription {
+      font-family: Poppins;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--mainDetailColor);
+      opacity: 70%;
+    }
+  }
+  .bestInClassPic {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    img {
+      width: 95%;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.keyWord {
+  width: 80%;
+  margin-left: 11%;
+  margin-top: 5%;
+  padding: 2% 0px;
+  border-top: 1px solid #c2c2c4;
+  border-bottom: 1px solid #c2c2c4;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  .categoryKeyWord {
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 19px;
+    .keyWordChild {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 32px;
+      color: var(--mainDetailColor);
+      opacity: 70%;
+      transition: 400ms;
+      &:hover {
+        color: #2405f2;
+        opacity: 1;
+      }
+    }
+  }
+}

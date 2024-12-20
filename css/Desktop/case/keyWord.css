@@ -1,0 +1,9 @@
+.keyWord {
+  .categoryKeyWord {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 59px;
+    .keyWordChild {
+      font-size: 18px;
+    }
+  }
+}

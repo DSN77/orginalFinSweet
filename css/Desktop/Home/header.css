@@ -1,0 +1,53 @@
+header {
+  width: 100%;
+  height: unset;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 5px 50px;
+  position: sticky;
+  left: unset;
+  z-index: 2000;
+  div.logo {
+    flex-flow: row nowrap;
+    margin-bottom: 30px;
+  }
+  div.menu {
+    nav {
+      flex-flow: row wrap;
+      gap: unset;
+      .mainMenu {
+        width: 75%;
+        margin-bottom: 40px;
+        ul {
+          flex-flow: row wrap;
+          gap: 32px;
+          a {
+            font-size: 14px !important;
+          }
+        }
+      }
+      .contactBtn {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        a.header {
+          font-size: 12px;
+        }
+        div.btn {
+          width: fit-content;
+          padding: 16px 48px !important;
+        }
+      }
+    }
+  }
+}
+input#show,
+input#close,
+label[for="show"],
+label[for="close"],
+div.close {
+  display: none !important;
+}

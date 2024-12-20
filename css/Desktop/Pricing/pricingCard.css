@@ -1,0 +1,25 @@
+.pricingCard {
+  grid-template-columns: repeat(3, 1fr);
+  .pricingCardChild {
+    .costCard {
+      font-size: 38px;
+    }
+    .detailCard {
+      .topicDetailCard {
+        font-size: 24px;
+      }
+      .descriptionDetailCard {
+        font-size: 16px;
+      }
+    }
+    .stepsCard {
+      .firstStep,
+      .secondStep,
+      .thirdStep,
+      .fourthStep,
+      .fifthStep {
+        font-size: 16px;
+      }
+    }
+  }
+}
